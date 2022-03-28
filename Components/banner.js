@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import "tw-elements";
+// import "tw-elements";
 import ban from "../assets/banner.jpeg";
 
 const banner = () => {
