@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from "../components/Header.js";
 import Footer from "../Components/Footer.js";
+import DietPlan from '../Components/DietPlan.js';
 
 const Diet = () => {
   return (
     <div>
     <Header />
+    <DietPlan />
     <Footer />
-    
     </div>
   )
 }

@@ -6,7 +6,6 @@ import Features from "../Components/Features";
 import Cards from "../Components/Cards";
 import Team from "../Components/Team";
 import Form from "../Components/form";
-import Workout from "./Workout.js";
 import NewsLetter from "../Components/NewsLetter";
 
 
