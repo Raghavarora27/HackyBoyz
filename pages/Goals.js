@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Header from "../components/Header.js";
+import Footer from "../Components/Footer.js";
 
 const Goals = () => {
   return (
-    <div>Goals</div>
+    <div>
+    <Header />
+    <Footer />
+    
+    </div>
   )
 }
 

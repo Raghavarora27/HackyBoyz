@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import Banner from "../Components/banner";
+import Banner from "../Components/Banner";
 import Features from "../Components/Features";
 import Cards from "../Components/Cards";
 import Team from "../Components/Team";
@@ -19,9 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
       </Head>
-
+       
+      <Header />
       <div>
-        <Header />
         
         <Banner />
         {/* <Bannner /> */}

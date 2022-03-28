@@ -2,9 +2,12 @@ import React from "react";
 import logo from "../assets/gicon.png";
 import Image from "next/image";
 import Link from "next/link";
+import Header from "../Components/Header.js";
+import Footer from "../Components/Footer.js";
 
 export default function Login() {
   return (
+    <div><Header />
     <section className="h-screen">
       <div className="px-6 h-full text-gray-800">
         <div className="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
@@ -93,5 +96,7 @@ export default function Login() {
         </div>
       </div>
     </section>
+    <Footer />
+    </div>
   );
 }

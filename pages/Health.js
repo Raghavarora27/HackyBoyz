@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Header from "../components/Header.js";
+import Footer from "../Components/Footer.js";
 
 const Health = () => {
   return (
-    <div>Health</div>
+    <div>
+    <Header />
+    <Footer />
+    </div>
   )
 }
 

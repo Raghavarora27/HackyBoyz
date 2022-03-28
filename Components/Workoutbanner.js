@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // import "tw-elements";
 import ban from "../assets/banner.jpeg";
 
-const Banner = () => {
+const WorkoutBanner = () => {
   return (
     <div
       id="carouselDarkVariant"
@@ -95,4 +95,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default WorkoutBanner;

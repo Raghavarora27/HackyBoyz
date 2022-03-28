@@ -1,13 +1,12 @@
 import React from "react";
-import about from "../assets/about.jpg";
-import Image from "next/image";
 
 const Features = () => {
   return (
-    <div
-      class="p-10 min-h-screen flex items-center justify-center"
-      style={{ backgroundColor: "#1F2937"}}
+    <div id="about"
+    class="p-10 min-h-screen flex items-center justify-center flex-col"
+    style={{ backgroundColor: "#1F2937"}}
     >
+    <h1 style={{color:"white",fontSize:"5rem",marginBottom:"2rem",fontFamily:"serif"}}>ABOUT US</h1>
       <div
         style={{
           backgroundColor: "white",
@@ -19,7 +18,7 @@ const Features = () => {
           borderRadius: "3%",
           opacity: "0.8",
         }}
-      >
+        >
         <div
           class="w-full max-w-lg h-64 rounded-lg shadow-2xl overflow-hidden relative"
           style={{ width: "70%" }}
@@ -43,7 +42,7 @@ const Features = () => {
             backgroundColor: "white",
             color: "black",
             width: "40rem",
-            height: "34vh",
+            height: "40vh",
             textAlign: "left",
             padding: "1.5rem",
           }}
@@ -64,7 +63,7 @@ const Features = () => {
             We Are Us! We Are FitPlus!!
           </p>
           <button
-            className="bg-black hover:bg-grey hover:text-blue-400 text-white border border-solid border-grey w-1 lg:w-full py-2 border-4"
+            className="bg-black hover:bg-grey hover:text-blue-400 text-white border-solid border-grey w-1 lg:w-full py-2 border-4"
             style={{ borderRadius: "5%", marginTop: "0.5rem" }}
           >
             Visit now

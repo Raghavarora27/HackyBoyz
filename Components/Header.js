@@ -122,14 +122,19 @@ export default function Example() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            <a>
               <span className="sr-only">Workflow</span>
               {/* <img
                 className="h-8 w-auto sm:h-10"
                 src={logo}
                 alt=""
               /> */}
-              <Image src={logo} className="h-8 w-auto sm:h-10" />
+              <Link href="/">
+                <Image
+                  src={logo}
+                  className="h-8 w-auto sm:h-10 cursor-pointer"
+                />
+              </Link>
             </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
@@ -138,12 +143,18 @@ export default function Example() {
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          <button class="bg-black hover:bg-white text-white text-lg font-serif font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
-            Home
-          </button>
-          <button class="bg-black hover:bg-white text-white text-lg font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
-            About Us
-          </button>
+          <Link href="/">
+            <button class="bg-black hover:bg-white text-white text-lg font-serif font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
+              Home
+            </button>
+          </Link>
+          <Link
+            href="#about"
+          >
+            <button class="bg-black hover:bg-white text-white text-lg font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
+              About Us
+            </button>
+          </Link>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
             <Popover className="relative">
               {({ open }) => (
@@ -204,9 +215,15 @@ export default function Example() {
                 </>
               )}
             </Popover>
+            <Link
+            href="#contact"
+          >
+
             <button class="bg-black hover:bg-white text-white text-lg font-serif font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
               Contact Us
             </button>
+
+          </Link>
 
             {/* <Popover className="relative">
               {({ open }) => (

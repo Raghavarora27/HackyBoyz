@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Header from "../components/Header.js";
+import Footer from "../Components/Footer.js";
 
 const Tracker = () => {
   return (
-    <div>Tracker</div>
+    <div>
+    <Header />
+    <Footer /></div>
   )
 }
 

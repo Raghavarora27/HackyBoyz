@@ -2,7 +2,7 @@ import React from "react";
 
 const form = () => {
   return (
-    <div className="cont">
+    <div className="cont" id="contact">
       <form action="" className="imgg">
         <div class="title">
           <h2>CONTACT</h2>
