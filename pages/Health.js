@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "../components/Header.js";
+import Header from "../Components/Header.js";
 import Footer from "../Components/Footer.js";
 import HealthwellnessBlogs from '../Components/HealthwellnessBlogs.js';
 import WorkoutBanner from '../Components/Workoutbanner.js';

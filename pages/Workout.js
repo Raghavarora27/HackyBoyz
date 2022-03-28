@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header.js";
+import Header from "../Components/Header.js";
 import Footer from "../Components/Footer.js";
 import WorkoutBanner from "../Components/Workoutbanner.js";
 import WorkoutCards from "../Components/WorkoutCards.js";
