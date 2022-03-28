@@ -47,8 +47,8 @@ const Cards = () => {
           </div>
           <p class="text-white text-base">
             In this Section, We have different types of workout/exercises like
-            Aerobics, Yoga, Zumba, weight-lifting, kick-boxing and many more which can
-            keep you healthy and fit.
+            Aerobics, Yoga, Zumba, weight-lifting, kick-boxing and many more
+            which can keep you healthy and fit.
           </p>
         </div>
       </div>
@@ -102,7 +102,8 @@ const Cards = () => {
             Set Your Goals
           </div>
           <p class="text-white text-base">
-            In this section, user can set their goals as per their requirements according to the mentioned categories.
+            In this section, user can set their goals as per their requirements
+            according to the mentioned categories.
           </p>
         </div>
       </div>
