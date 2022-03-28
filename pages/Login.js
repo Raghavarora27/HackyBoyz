@@ -62,7 +62,7 @@ export default function Login() {
                   />
                   <label
                     className="form-check-label inline-block text-gray-800"
-                    for="exampleCheck2"
+                    htmlFor="exampleCheck2"
                   >
                     Remember me
                   </label>
@@ -80,7 +80,7 @@ export default function Login() {
                   Login
                 </button>
                 <p className="text-sm font-semibold mt-2  pt-1 mb-0">
-                  Don't have an account?
+                  Don&apost have an account?
                   <Link
                     href="/Signup"
                     className=" text-blue-600 hover:underline mx-1"

@@ -4,32 +4,32 @@ const form = () => {
   return (
     <div className="cont" id="contact">
       <form action="" className="imgg">
-        <div class="title">
+        <div className="title">
           <h2>CONTACT</h2>
         </div>
-        <div class="half">
-          <div class="item">
-            <label for="name">NAME</label>
+        <div className="half">
+          <div className="item">
+            <label htmlFor="name">NAME</label>
             <input type="text" id="name" />
           </div>
-          <div class="item">
-            <label for="email">EMAIL</label>
+          <div className="item">
+            <label htmlFor="email">EMAIL</label>
             <input type="text" id="email" />
           </div>
         </div>
-        <div class="full">
-          <label for="message">MESSAGE</label>
+        <div className="full">
+          <label htmlFor="message">MESSAGE</label>
           <textarea name="" id="message"></textarea>
         </div>
-        <div class="action">
+        <div className="action">
           <input type="submit" value="SEND MESSAGE" />
           <input type="reset" value="RESET" />
         </div>
-        <div class="icons">
-          <a href="" class="fa fa-twitter"></a>
-          <a href="" class="fa fa-facebook"></a>
-          <a href="" class="fa fa-instagram"></a>
-          <a href="" class="fa fa-github"></a>
+        <div className="icons">
+          <a href="" className="fa fa-twitter"></a>
+          <a href="" className="fa fa-facebook"></a>
+          <a href="" className="fa fa-instagram"></a>
+          <a href="" className="fa fa-github"></a>
         </div>
       </form>
         <hr/>

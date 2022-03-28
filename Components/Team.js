@@ -10,20 +10,20 @@ import Image from "next/image";
 const Team = () => {
   return (
     <div>
-      <section class="bg-white dark:bg-gray-900">
-        <div class="h-[32rem] bg-gray-100 dark:bg-gray-800">
-          <div class="container px-6 py-10 mx-auto">
-            <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
+      <section className="bg-white dark:bg-gray-900">
+        <div className="h-[32rem] bg-gray-100 dark:bg-gray-800">
+          <div className="container px-6 py-10 mx-auto">
+            <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
               Our Team
             </h1>
 
-            <div class="flex justify-center mx-auto mt-6">
-              <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-              <span class="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
-              <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
+            <div className="flex justify-center mx-auto mt-6">
+              <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
+              <span className="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
             </div>
 
-            <p class="max-w-2xl mx-auto mt-6 text-center text-gray-500 dark:text-gray-300">
+            <p className="max-w-2xl mx-auto mt-6 text-center text-gray-500 dark:text-gray-300">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
               incidunt ex placeat modi magni quia error alias, adipisci rem
               similique, at omnis eligendi optio eos harum.
@@ -31,32 +31,32 @@ const Team = () => {
           </div>
         </div>
 
-        <div class="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
-          <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
-            <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+        <div className="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
+          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+            <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
              
 
               <Image
                 src={gaurav}
-                class="object-cover w-full rounded-xl aspect-square"
+                className="object-cover w-full rounded-xl aspect-square"
               />
 
-              <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
                 Gaurav Yadav
               </h1>
 
-              <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">
+              <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">
                 Team Lead
               </p>
 
-              <div class="flex mt-3 -mx-2">
+              <div className="flex mt-3 -mx-2">
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Reddit"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -67,11 +67,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Facebook"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -82,11 +82,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Github"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -97,30 +97,30 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+            <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
             <Image
                 src={raghav}
-                class="object-cover w-full rounded-xl aspect-square"
+                className="object-cover w-full rounded-xl aspect-square"
                 height={2270}
               />
 
 
-              <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
                 Raghav Arora
               </h1>
 
-              <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">
+              <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">
                 Frontend Developer
               </p>
 
-              <div class="flex mt-3 -mx-2">
+              <div className="flex mt-3 -mx-2">
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Reddit"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -131,11 +131,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Facebook"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -146,11 +146,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Github"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -161,35 +161,35 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+            <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
               {/* <img
-                class="object-cover w-full rounded-xl aspect-square"
+                className="object-cover w-full rounded-xl aspect-square"
                 src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                 alt=""
               /> */}
 
               <Image
                 src={aakash}
-                class="object-cover w-full rounded-xl aspect-square"
+                className="object-cover w-full rounded-xl aspect-square"
                 height={3000}
               />
 
-              <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
                 Aakash Jain
               </h1>
 
-              <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">
+              <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">
                 Frontend Developer
               </p>
 
-              <div class="flex mt-3 -mx-2">
+              <div className="flex mt-3 -mx-2">
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Reddit"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -200,11 +200,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Facebook"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -215,11 +215,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Github"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -230,31 +230,31 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+            <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
               {/* <img
-                class="object-cover w-full rounded-xl aspect-square"
+                className="object-cover w-full rounded-xl aspect-square"
                 src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                 alt=""
               /> */}
 
-              <Image src={vansh} class="object-cover w-full rounded-xl aspect-square" height={720}/>
+              <Image src={vansh} className="object-cover w-full rounded-xl aspect-square" height={720}/>
 
-              <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
                 Vansh Sharma
               </h1>
 
-              <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">
+              <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">
                 Full Stack Developer
               </p>
 
-              <div class="flex mt-3 -mx-2">
+              <div className="flex mt-3 -mx-2">
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Reddit"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -265,11 +265,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Facebook"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -280,11 +280,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Github"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -295,31 +295,31 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+            <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
               {/* <img
-                class="object-cover w-full rounded-xl aspect-square"
+                className="object-cover w-full rounded-xl aspect-square"
                 src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                 alt=""
               /> */}
 
-              <Image src={mukul} class="object-cover w-full rounded-xl aspect-square"/>
+              <Image src={mukul} className="object-cover w-full rounded-xl aspect-square"/>
 
-              <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
                 Mukul Sharma
               </h1>
 
-              <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">
+              <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">
                 Frontend Developer
               </p>
 
-              <div class="flex mt-3 -mx-2">
+              <div className="flex mt-3 -mx-2">
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Reddit"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -330,11 +330,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Facebook"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -345,11 +345,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Github"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -360,24 +360,24 @@ const Team = () => {
               </div>
             </div>
 
-            <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
-              <Image src={rashi} class="object-cover w-full rounded-xl aspect-square" height={1070}/>
-              <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+            <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+              <Image src={rashi} className="object-cover w-full rounded-xl aspect-square" height={1070}/>
+              <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
                 Rashi Sharma
               </h1>
 
-              <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">
+              <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">
                 Backend Developer
               </p>
 
-              <div class="flex mt-3 -mx-2">
+              <div className="flex mt-3 -mx-2">
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Reddit"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -388,11 +388,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Facebook"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -403,11 +403,11 @@ const Team = () => {
 
                 <a
                   href="#"
-                  class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
+                  className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300"
                   aria-label="Github"
                 >
                   <svg
-                    class="w-6 h-6 fill-current"
+                    className="w-6 h-6 fill-current"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"

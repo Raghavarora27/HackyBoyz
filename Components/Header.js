@@ -143,12 +143,12 @@ export default function Example() {
             </Popover.Button>
           </div>
           <Link href="/">
-            <button class="bg-black hover:bg-white text-white text-lg font-serif font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
+            <button className="bg-black hover:bg-white text-white text-lg font-serif font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
               Home
             </button>
           </Link>
           <Link href="#about">
-            <button class="bg-black hover:bg-white text-white text-lg font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
+            <button className="bg-black hover:bg-white text-white text-lg font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
               About Us
             </button>
           </Link>
@@ -162,7 +162,7 @@ export default function Example() {
                       "group bg-black rounded-md inline-flex items-center text-base font-medium hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     )}
                   >
-                    <button class="bg-black hover:bg-white text-white text-lg font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
+                    <button className="bg-black hover:bg-white text-white text-lg font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
                       Services
                     </button>
                     <ChevronDownIcon
@@ -213,13 +213,13 @@ export default function Example() {
               )}
             </Popover>
             <Link href="#contact">
-              <button class="bg-black hover:bg-white text-white text-lg font-serif font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
+              <button className="bg-black hover:bg-white text-white text-lg font-serif font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
                 Contact Us
               </button>
             </Link>
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <button class="bg-black hover:bg-white text-white text-lg font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
+            <button className="bg-black hover:bg-white text-white text-lg font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
               <Link href="/Login"> Sign in </Link>
             </button>
             <Link href="/Signup">
@@ -283,7 +283,7 @@ export default function Example() {
             </div>
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                <buttonbutton class="bg-black hover:bg-white text-white text-lg font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
+                <buttonbutton className="bg-black hover:bg-white text-white text-lg font-semibold py-2 px-4 border border-black rounded-xl shadow hover:text-black">
                   About Us
                 </buttonbutton>
                 <a
