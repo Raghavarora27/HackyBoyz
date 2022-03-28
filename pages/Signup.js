@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Header from "../components/Header.js";
+import Header from "../Components/Header.js";
 import Footer from "../Components/Footer.js";
 
 export default function Signup() {

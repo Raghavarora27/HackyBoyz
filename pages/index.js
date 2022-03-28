@@ -1,13 +1,12 @@
 import Head from "next/head";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import Banner from "../Components/Banner";
+import Banner from "../Components/banner";
 import Features from "../Components/Features";
 import Cards from "../Components/Cards";
 import Team from "../Components/Team";
 import Form from "../Components/form";
 import NewsLetter from "../Components/NewsLetter";
-import { useState, useEffect } from "react";
 // import AppContext from "./AppContext";
 
 export default function Home() {
